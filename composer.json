@@ -1,0 +1,16 @@
+{
+    "name": "eldadfux/w3c-validator",
+    "description": "PHP class for validating web documents with W3C validation API",
+    "type": "library",
+    "keywords": ["w3c","validation"],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Eldad Fux",
+            "email": "eldad.fux@gmail.com"
+        }
+    ],
+    "require": {
+    }
+}
