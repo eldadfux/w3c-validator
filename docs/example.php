@@ -1,10 +1,8 @@
 <?php
 
-include_once '../src/W3CValidator.php';
+include_once realpath(__DIR__ . '/../src/W3CValidator.php');
 
 // Create a new validator object
-$validate = new W3CValidator('http://www.walla.co.il');
+$validate = new W3CValidator\W3CValidator('http://www.walla.co.il');
 
 var_dump($validate->getReport());
-
-die();
