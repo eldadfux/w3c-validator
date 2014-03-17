@@ -12,12 +12,15 @@ PHP class for validating web documents with W3C validation API
     // Create a new validator object
     $validate = new W3CValidator('http://www.walla.co.il');
 
+    var_dump($validate->isValid()); /* output: bool(false) */
+    var_dump($validate->getErrorsCount()); /* output: int(463) */
+    var_dump($validate->getWarningsCount()); /* output: int(372) */
     var_dump($validate->getReport());
 
     /*
 
-    Output:
-    ------------------------------------------------------------
+    output:
+
         array(6) {
           ["URI"]=>
           string(23) "http://www.walla.co.il/"
