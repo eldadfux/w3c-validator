@@ -5,6 +5,13 @@ namespace W3CValidator;
 use \Exception;
 use \SimpleXMLElement;
 
+/**
+ * W3C Validator Class
+ * 
+ * A simple standalone PHP class to validate remote web pages using the W3C validator API.
+ * 
+ * @link http://validator.w3.org/docs/api.html
+ */
 class W3CValidator
 {
     /**
