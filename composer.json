@@ -5,6 +5,9 @@
     "keywords": ["w3c","validation"],
     "license": "MIT",
     "minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {"W3CValidator\\": "src"}
+	},
     "authors": [
         {
             "name": "Eldad Fux",
