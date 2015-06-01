@@ -13,6 +13,13 @@ PHP class for validating web documents with W3C validation API
     var_dump($validate->getErrorsCount()); /* output: int(463) */
     var_dump($validate->getWarningsCount()); /* output: int(372) */
 
+## Limits
+
+Please notice that the W3C API is limited according to their abuse policy.
+
+More information can be found here:
+[http://www.w3.org/Help/abuse-info/re-reqs.html](http://www.w3.org/Help/abuse-info/re-reqs.html)
+
 ## Contributing
 
 All code contributions - including those of people having commit access - must go through a pull request and approved by a core developer before being merged. This is to ensure proper review of all the code.
