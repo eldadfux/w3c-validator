@@ -1,6 +1,14 @@
-# w3c-validator [![Build Status](https://travis-ci.org/eldadfux/w3c-validator.png?branch=master)](https://travis-ci.org/eldadfux/w3c-validator)
+# W3C Validator [![Build Status](https://travis-ci.org/eldadfux/w3c-validator.png?branch=master)](https://travis-ci.org/eldadfux/w3c-validator)
 
 PHP class for validating web documents with W3C validation API
+
+## Installation
+
+Install using composer:
+
+    composer require 'eldadfux/w3c-validator:1.0.0'
+
+## Usage
 
     Example:
 
