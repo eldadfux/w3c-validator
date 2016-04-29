@@ -55,9 +55,6 @@ We recommend using the latest PHP version whenever possible.
 
 + [https://twitter.com/eldadfux](https://twitter.com/eldadfux)
 + [https://github.com/eldadfux](https://github.com/eldadfux)
-+ [![endorse](https://api.coderwall.com/eldadfux/endorsecount.png)](https://coderwall.com/eldadfux)
-
-See also the list of [contributors](https://github.com/composer/satis/contributors) who participated in this project.
 
 ## License
 
