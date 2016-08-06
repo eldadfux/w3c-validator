@@ -6,20 +6,24 @@ PHP wrapper class for validating web documents with W3C validation API
 
 Install using composer:
 
-    composer require 'eldadfux/w3c-validator:1.0.0'
+```bash
+composer require 'eldadfux/w3c-validator:1.0.0'
+```
 
 ## Usage
 
-    Example:
+Example:
 
-    include_once '../src/W3CValidator.php';
+```php
+include_once '../src/W3CValidator.php';
 
-    // Create a new validator object
-    $validate = new W3CValidator('http://www.walla.co.il');
+// Create a new validator object
+$validate = new W3CValidator('http://www.walla.co.il');
 
-    var_dump($validate->isValid()); /* output: bool(false) */
-    var_dump($validate->getErrorsCount()); /* output: int(463) */
-    var_dump($validate->getWarningsCount()); /* output: int(372) */
+var_dump($validate->isValid()); /* output: bool(false) */
+var_dump($validate->getErrorsCount()); /* output: int(463) */
+var_dump($validate->getWarningsCount()); /* output: int(372) */
+```
 
 ## Limits
 
